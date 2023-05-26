@@ -1,0 +1,8 @@
+# run command line on amazone linux ec2
+##Most Linux distributions include the MariaDB client instead of the Oracle MySQL client. 
+##To install the MySQL command-line client on Amazon Linux 2023, run the following command:
+sudo dnf install mariadb105
+##To check the version of your MySQL command-line client, run the following command:
+mysql --version
+##to connect to a db:
+mysql -h standby-database.ctbuekjouq7c.us-east-2.rds.amazonaws.com -P 3306 -u admin -p
